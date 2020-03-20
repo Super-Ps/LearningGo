@@ -3,11 +3,24 @@ package main  	// 包， 表明代码所在的模块
 import  "fmt" 
 import   "os"   // 引入代码依赖
 
+
+
+
+func variable(){
+// 定义变量  变量在前 类型在后
+	var a int =3
+	var b string ="abc"
+	fmt.Println("a,b",a,b)
+
+}
+
+
 //功能实现
 func main()  {
 	fmt.Println("命令行参数是 :",os.Args)
 	fmt.Println(" Jony ")
 	fmt.Println("Jony 222")
+	variable()
 	os.Exit(0)
 }
 
@@ -28,4 +41,8 @@ func main()  {
      mian 函数不支持参数
 	os.Args 获取命令行参数 os.Args[0] 执行路劲为二进制文件   ，剩余后面就是参数了，
 */
+
+
+
+
 
