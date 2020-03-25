@@ -6,6 +6,12 @@ import "testing"
 func TestHelloWorld(t *testing.T) {
 	// t.Log("hello world")
 	var s string
-	t.Log("%T",s )
+	t.Log(s )
 }
+
+
+// func main(){
+// 	TestHelloWorld()
+// }
+
 
