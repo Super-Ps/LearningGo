@@ -1,17 +1,14 @@
-
-package  try_test
+package try_test
 
 import "testing"
 
 func TestHelloWorld(t *testing.T) {
 	// t.Log("hello world")
 	var s string
-	t.Log(s )
+	s = "hehhehe"
+	t.Log(s)
 }
 
-
-// func main(){
-// 	TestHelloWorld()
-// }
-
-
+func main() {
+	TestHelloWorld()
+}
