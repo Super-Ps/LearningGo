@@ -22,7 +22,6 @@ return &person{
 
 }
 
-
 func (p *person) SetAge( age int) {
 
 	if age > 0 && age < 150{
